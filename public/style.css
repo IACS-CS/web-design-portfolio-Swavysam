@@ -1,5 +1,55 @@
 body {
-  /* Change to something you like, but please do customize the font! */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   line-height: 1.4;
+}
+body {
+  background-color: #46b2ff; 
+}
+.tabs {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  padding: 0;
+
+  position: center;
+  top: 0;
+ 
+  background-color: white;
+  po
+}
+.tabs li a {
+ 
+  width: 150px;
+  height: 40px;
+
+  display: grid;
+  place-content: center;
+
+  background-color: #efefef;
+  border: 1px solid grey;
+
+  border-radius: 20px 20px 0 0;
+
+  text-decoration: none;
+  color: black;
+}
+
+.tabs li a.active {
+  background-color: black;
+  color: white;
+}
+
+
+*/
+
+.tabs a.active {
+  background-color: black;
+  color: white;
+}
+
+.tab-content > section {
+  display: none;
+}
+.tab-content > section.active {
+  display: block;
 }
