@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+  
+
+main {
+  border: 1px solid #ffffff;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.landscape {
+  display:flex; flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+position: relative;
+  width: 3.5in;
+  height: 2in;
+}
+.bold {color:white}
+.portrait {
+  width: 2in;
+  height: 3.5in;
+}
+body {
+  background-color: black;
+}
+#myDiv {
+    border-right: 336px solid #3737c3; 
+  
+  
+
+
+
+
+
+
